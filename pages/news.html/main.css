@@ -1,0 +1,396 @@
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/rubik-v28-cyrillic_latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/rubik-v28-cyrillic_latin-500.woff2") format("woff2");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+}
+
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top {
+    background-color: #f6f6f6;
+    padding: 30px 0px;
+}
+
+.hero-top__warpper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top__left {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.header-prices {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.header-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+}
+
+.valyuta {
+    color: rgb(41, 89, 206);
+}
+
+.header-top__right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.header-search {
+    padding: 13px 15px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+}
+
+.header-languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 3px;
+    background-color: #dce6ff;
+    border-radius: 39px;
+    gap: 8px;
+}
+
+.header-lenguage {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.41px;
+}
+
+.language-active {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.language-ru {
+    padding-right: 10px;
+}
+
+.sign-up {
+    padding: 13px 20px;
+    color: white;
+    background-color: #7296ec;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    line-height: 18.96px;
+    text-decoration: none;
+}
+
+.header-nav {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header-link {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+
+.article {
+    width: 797px;
+    height: 1257px;
+}
+
+
+.source {
+    display: flex;
+}
+
+.time {
+    padding-left: 10px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.59px;
+    color: #5e5f61;
+}
+
+.headingone {
+    padding-top: 30px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.img {
+    margin-top: 20px;
+}
+
+.paragraph {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+
+.article-paragraph {
+    gap: 24px;
+}
+
+
+.second-container {
+    width: 393px;
+    height: 613px;
+    margin-left: 10px;
+    background-color: #F6F6F6;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.second-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.third-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.second-paragraph {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5e5f61;
+}
+
+
+.section-divider {
+    margin-top: 50px;
+    width: 780px;
+    height: 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #D2D2D2
+}
+
+.mini-con {
+    display: flex;
+    margin-top: 50px;
+}
+
+.img-ads {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sectiontwo {
+    margin-top: 60px;
+}
+
+.headingtwo {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.44px;
+    color: #000000;
+}
+
+
+
+.whole-wrapper {
+    padding-top: 20px;
+    display: flex;
+
+    gap: 20px;
+}
+
+.mini-container {
+    width: 393px;
+    height: 207px;
+    padding: 20px 18px 15px 17px;
+    gap: 20px;
+    border-radius: 15px 0px 0px 0px;
+    background-color: #f6f6f6;
+}
+
+.section-box {
+    padding: 20px, 18px, 55px, 17px;
+}
+
+.section-heading {
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #000000;
+}
+
+.section-paragraph {
+    padding-top: 10px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #4a4b4c;
+}
+
+.source {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+.time {
+    padding-left: 10px;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.22px;
+    color: #5E5F61;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 356px;
+    background-color: #7297EF;
+}
+
+.whole-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.footer-title {
+    padding-top: 40px;
+    padding-left: 100px;
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.44px;
+    color: #ffffff;
+}
+
+
+.footer-left {
+    width: 229px;
+
+}
+
+.footer-text {
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+
+.footer-list {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.footer-item {
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    color: #ffffff;
+}
+
+.footer-divider {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 998px;
+    height: 1px;
+    background-color: #cecece;
+
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    padding-left: 100px;
+    display: flex;
+    gap: 610px;
+}
+
+.footer-text-div {
+    width: 150px;
+}
+
+.footer-social-text {
+    font-family: "Rubik", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #ffffff;
+}
+
+.footer-icon {
+    padding-left: 25px;
+}
